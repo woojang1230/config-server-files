@@ -1,3 +1,8 @@
 service:
   text: "hahahaha!!!"
-  port: 8081
+app:
+  parents-db:
+    host: localhost
+    port: 3306
+    username: test
+    password: test
